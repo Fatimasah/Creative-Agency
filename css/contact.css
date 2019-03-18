@@ -1,0 +1,141 @@
+:root {
+    --blueGradiant: linear-gradient(to right, #504aee , #33d5d7);
+    --btnhover: linear-gradient(to right, #33d5d7 , #504aee);
+    --grayColor: #666666;
+    --subtitleColor: #4d4d4d;
+    --gray9Color: #999999;
+}
+@font-face {
+    font-family: "r-reg";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "r-thin";
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+@font-face {
+    font-family: "r-light";
+    src:url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "r-med";
+    src:url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "r-black";
+    src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: "r-bold";
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+.contact-form {
+    margin-bottom: 100px;
+}
+.contact-form .containder-shadow {
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    -moz-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    -o-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    -ms-box-shadow: 0px 5px 15px 2px #e3e0de6e;
+    box-shadow: 0px 5px 15px 2px #e3e0de6e;
+}
+.contact-row {
+    justify-content: space-between;
+}
+.contact-form .general-iqu {
+    margin-left: 60px;
+
+}
+.contact-form .general-title {
+    color: var(--grayColor);
+    font-size: 18px;
+    margin-bottom: 50px;
+    font-family: 'r-reg';
+}
+svg:not(:root).svg-inline--fa.cont-phon {
+    transform: rotate(90deg);
+}
+svg:not(:root).svg-inline--fa
+{
+    margin-right: 60px;
+}
+.contact-form .general-iqu .contact-info .info {
+    font-size: 18px;
+    color: var(--gray9Color);
+    font-family: 'r-reg';
+}
+.contact-form .general-iqu .contact-info .info span {
+    
+    font-size: 25px;
+    opacity: .5;
+}
+
+
+.contact-form .request-info{
+    margin-right: 60px;
+    
+}
+.contact-form .request-info form input {
+    height: 65px;
+    position: relative;
+    color: var(--gray9Color);
+    font-size: 15px;
+    font-family: 'r-reg';
+    padding-left: 45px;
+
+}
+.contact-form .request-info .form-group svg:not(:root).svg-inline--fa {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 2;
+    color: var(--gray9Color);
+    opacity: .5;
+}
+/* .contact-form .request-info form input:focus 
+ .form-group path{
+    
+        display: none;
+
+    } */
+    .contact-form .request-info .comm svg:not(:root).svg-inline--fa { 
+        top: 170px;
+        left: 35px;
+    }
+    .contact-form .request-info form textarea {
+    width: 100%;
+    resize: none;
+    position: relative;
+    padding-left: 45px;
+}
+button {
+    
+    background: unset;
+    border: 0;
+    color: #ffffff;
+    
+    font-size: 12px;
+    font-family: 'r-black', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+@media (max-width:992px) {
+    .contact-form .general-title {
+        text-align: center;
+    }
+   .genera {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .contact-form .general-iqu {
+        margin-left: 0px;
+    
+    }
+    .contact-form .request-info{
+        margin-right: 0px;
+        
+    }
+}

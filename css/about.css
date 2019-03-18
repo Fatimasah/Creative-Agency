@@ -1,0 +1,77 @@
+/* ========About stylee ======== */
+.home .static-home {
+    padding: 9% 0px;
+}
+
+.home .static-home .about-title h1 {
+    font-family: 'r-bold';
+}
+ /* mission vision */
+.mission-vision {
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.mission-vision .mission-row {
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.mission-vision .mission .mission-title{
+    color: #504aee;
+    font-family: 'r-bold';
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.mission-vision .mission .mission-details {
+    line-height: 2.5;
+    color: #000000;
+    font-family: 'r-light';
+    font-size: 14px;
+    text-align: justify;
+}
+.mission-vision .image-row {
+    margin-bottom: 100px;
+}
+.mission-vision .card {
+    border: none;
+    background-color: unset;
+}
+.mission-vision .card .card-image {
+        position: relative;
+        -webkit-transition: all .5s  linear;
+        -moz-transition: all .5s  linear;
+        -o-transition: all .5s  linear;
+        -ms-transition: all .5s  linear;
+        transition: all .5s linear;
+}
+.mission-vision .card .card-img-top {
+    border-radius: 0;
+}
+.mission-vision .card .card-image:hover .image-overlay {
+    opacity: .5;
+    -webkit-transition: all .5s  linear;
+    -moz-transition: all .5s  linear;
+    -o-transition: all .5s  linear;
+    -ms-transition: all .5s  linear;
+    transition: all .5s linear;
+}
+.mission-vision .card .card-body {
+    color: #202020;
+    font-family: 'r-light';
+
+}
+.mission-vision .card .card-text {
+    font-size: 10px;
+    opacity: .4;
+    
+}
+.mission-vision .card .card-title {
+    font-size: 18px;
+}
+.mission-vision .about-info p {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'r-light';
+    line-height: 2.5;
+    text-align: justify;
+
+}
